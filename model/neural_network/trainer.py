@@ -54,7 +54,6 @@ class Classifier:
 
         self.best_model = best_model
 
-    # 모델 검증
     def validate(self, data_loader):
         self.model.eval()
 
@@ -81,7 +80,6 @@ class Classifier:
 
         return np.mean(loss_list)
 
-    # 추론
     def predict(self, data_loader):
         self.model.eval()
 
