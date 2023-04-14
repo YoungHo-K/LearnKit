@@ -1,1 +1,1 @@
-# LearnKit: ML/DL Architecture
+# LearnKit: ML/DL modeling
